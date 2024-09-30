@@ -3,7 +3,7 @@ const { Payment, MercadoPagoConfig } =require ('mercadopago');
 
 
 const client = new MercadoPagoConfig(
-  { accessToken: 'APP_USR-58066480181361-093008-996b16b98be22d4f0bd76b57b297027a-75149488', 
+  { accessToken: 'suaChaveAqui', 
     options:{timeout:5000, 
       idempotencyKey:'abc'
     }
